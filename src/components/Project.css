@@ -1,0 +1,14 @@
+.cara-container {
+  height: 100%;
+  width: 100%;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+  width: 70%;
+  height: 70%;
+  overflow: hidden;
+}

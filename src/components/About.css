@@ -1,0 +1,24 @@
+.abt-container {
+  background-color: lightgreen;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.abt-img {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.abt-img > img {
+  height: 100%;
+  width: 100%;
+}
+
+.abt-desc {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
