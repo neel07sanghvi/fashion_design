@@ -6,11 +6,21 @@ import Navbar from "./components/Navbar.jsx";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <div className="">
+      {/* <Navbar />
       <Home />
       <About />
-      <Project />
+      <Project /> */}
+      <Navbar />
+      <section id="home">
+        <Home />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="project">
+        <Project />
+      </section>
     </div>
   );
 }
